@@ -9,12 +9,15 @@ import org.springframework.transaction.annotation.Transactional;
 import com.devsuperior.dslist.dto.GameDto;
 import com.devsuperior.dslist.dto.GameMinDto;
 import com.devsuperior.dslist.entities.Game;
+import com.devsuperior.dslist.repositories.GameListRepository;
 import com.devsuperior.dslist.repositories.GameRepository;
 
 @Service
 public class GameService {
     @Autowired
     private GameRepository gameRepository;
+
+    private GameListRepository gameListRepository;
 
     public GameService(GameRepository gameRepository) {
         this.gameRepository = gameRepository;
