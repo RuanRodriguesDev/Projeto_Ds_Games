@@ -1,4 +1,4 @@
-# Projeto DSList - Intensivão Java Spring
+# Projeto DS_Games - Intensivão Java Spring
 
 ### Plug-in Maven
 
